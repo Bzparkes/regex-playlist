@@ -11,9 +11,9 @@ const patterns = {
 
 function validate(field, regex){
     if(regex.test(field.value)){
-        field.className = 'Valid';
+        field.className = 'valid';
     } else {
-        field.className = 'Invalid'
+        field.className = 'invalid'
     }
 }
 
